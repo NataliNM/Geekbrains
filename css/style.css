@@ -62,7 +62,7 @@ body {
     position: absolute;
     top: 10px;
     left: -44px;
-    background-image: url(img/check_icon.png);
+    background-image: url(../img/check_icon.png);
     background-size: cover;
 }
 
