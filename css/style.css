@@ -554,45 +554,34 @@ body {
     margin: 0 0 -30px 0;
 }
 
-
-.link1:before {
+.main-footer-contacts-link:before {
     content: "";
+    display: block;
     width: 26px;
     height: 26px;
     position: absolute;
     top: -1px;
     left: 0px;
+}
+
+.link1:before {
     background: url(../img/skype_icon.png) no-repeat;
+    background-size: cover;
 }
 
 .link2:before {
-    content: "";
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: -1px;
-    left: 0px;
     background: url(../img/icq_icon.png) no-repeat;
+    background-size: cover;
 }
 
 .link3:before {
-    content: "";
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: -1px;
-    left: 0px;
     background: url(../img/email_icon.png) no-repeat;
+    background-size: cover;
 }
 
 .link4:before {
-    content: "";
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: -1px;
-    left: 0px;
     background: url(../img/phone_icon.png) no-repeat;
+    background-size: cover;
 }
 
 .main-footer-contacts-icons {
@@ -601,7 +590,7 @@ body {
 }
 
 .main-footer-contacts-net {
-    border: 1px solid red;
+    border: 1px solid #fff;
     display: block;
     width: 48px;
     height: 48px;
