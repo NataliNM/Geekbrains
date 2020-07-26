@@ -564,6 +564,11 @@ body {
     left: 0px;
 }
 
+.main-footer-contacts-link:hover {
+  color: #ff2400;
+}
+
+
 .link1:before {
     background: url(../img/skype_icon.png) no-repeat;
     background-size: cover;
@@ -598,23 +603,40 @@ body {
 }
 
 .icon1 {
-    background: url ();
+    background: url();
 }
 
 .icon2 {
-    background: url ();
+    background: url();
 }
 
 .icon3 {
-    background: url ();
+    background: url();
 }
 
 .icon4 {
-    background: url ();
+    background: url();
 }
 
-.main-footer-section_2 {}
+.main-footer-section_2 {
+  background: #fff;
+  min-height: 27px;
+}
 
-.main-footer-section_2-p {}
+.main-footer-section_2-p {
+  font-size: 12px;
+line-height: 24px;
+font-weight: 400;
+  color: #445162;
+  text-align: center;
+}
 
-.main-footer-section_2-link {}
+.main-footer-section_2-link {
+  text-decoration: none;
+  color: #445162;
+  text-transform: uppercase;
+}
+
+.main-footer-section_2-link:hover {
+  color: #ff2400;
+}
