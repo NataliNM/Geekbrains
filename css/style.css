@@ -171,7 +171,9 @@ body {
 
 .dignity-list-items {
     position: relative;
-    margin: 0 0 33px 40px;
+    margin: 0 0 33px 0;
+padding: 0 0 0 40px;
+box-sizing: border-box;
 }
 
 .dignity-list-items:before {
@@ -180,17 +182,17 @@ body {
     height: 32px;
     position: absolute;
     top: 5px;
-    left: -40px;
+    left: 0;
     background: #445161;
     color: #fff;
     text-align: center;
     line-height: 32px;
-    font-size: 200%;
+    font-size: 30px;
 
 }
 
 .dignity-list>li:last-child {
-    margin: 0 0 0 40px;
+    margin: 0;
 }
 
 .screenshots {
@@ -429,22 +431,27 @@ body {
 
 .main-footer {
     background: #445162;
+  padding: 50px 0 0 0;
+box-sizing: border-box;
+}
+
+
+.main-footer-section_1 {
+    width: 820px;
+  margin: 0 auto;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 .main-footer_title {
+  width: 100%;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
     color: #ffffff;
     text-align: center;
-    margin: 0;
-    padding: 50px 0 0 0;
-}
-
-.main-footer-section_1 {
-    padding: 30px 250px 50px;
-    box-sizing: border-box;
-    display: flex;
+  margin: 0 0 20px 0;
+padding: 0;
 }
 
 .main-footer_form {
